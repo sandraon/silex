@@ -3,20 +3,15 @@
 	<head>
 		<title>Bookings APP</title>
 		<link rel="stylesheet" type="text/css" media="screen" href="/css/base.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="/css/header.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="/css/footer.css">
 	</head>
 
 	<body>
-		<div class="header">
-			<span class="header_heading">
-			This is Bookings APP</span>
-		</div>
+		{{ include('_header.html.twig')}}
 		<div class="content">
 			
 		</div>
-		<div class="footer">
-			<div class="footer_text">
-				Created by Sandra Õnne
-			</div>
-		</div>
+		{{ include('_footer.html.twig')}}
 	</body>
 </html>
